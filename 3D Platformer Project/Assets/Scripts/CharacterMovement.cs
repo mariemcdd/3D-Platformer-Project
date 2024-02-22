@@ -135,4 +135,9 @@ public int score = 0;
             _collectibles[i].GetComponent<Collectibles>().ReturnCollectibles();
         }
     }
+
+    public bool IsPlayerOnGround()
+    {
+        return IsOnGround;
+    }
 }
