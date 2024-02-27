@@ -8,6 +8,8 @@ TagManager:
   - Ground
   - Spinner
   - Collectible - Destroy
+  - CheckPoint
+  - CheckPoint2
   layers:
   - Default
   - TransparentFX

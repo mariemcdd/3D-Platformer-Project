@@ -125,6 +125,16 @@ public int score = 0;
             score++;
             other.gameObject.GetComponent<Collectibles>().HideCollectibles();
         }
+
+        if(other.CompareTag("CheckPoint"))
+        {
+            GameObject.Find("Main Camera").GetComponent<CameraPosition>().MoveToSpotTwo();
+        }
+
+        if(other.CompareTag("CheckPoint2"))
+        {
+            GameObject.Find("Main Camera").GetComponent<CameraPosition>().MoveToSpotThree();
+        }
     }
 
     void ReturningCollectibles()
