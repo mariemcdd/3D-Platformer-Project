@@ -10,6 +10,7 @@ TagManager:
   - Collectible - Destroy
   - CheckPoint
   - CheckPoint2
+  - CheckPoint0
   layers:
   - Default
   - TransparentFX

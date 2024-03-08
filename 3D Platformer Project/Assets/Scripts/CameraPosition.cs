@@ -22,6 +22,12 @@ public class CameraPosition : MonoBehaviour
         
     }
 
+    public void MoveToSpotOne()
+    {
+        transform.position = spotOne.position;
+        transform.rotation = spotOne.rotation;
+    }
+
     public void MoveToSpotTwo()
     {
         transform.position = spotTwo.position;
